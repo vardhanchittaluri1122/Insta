@@ -1,0 +1,23 @@
+.message-container {
+  padding: 20px;
+  background-color: #111;
+  color: white;
+}
+
+.chat-box {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #222;
+  margin-bottom: 10px;
+}
+
+.from-me {
+  text-align: right;
+  color: rgb(236, 75, 31);
+}
+
+.from-them {
+  text-align: left;
+  color: rgb(13, 176, 240);
+}
