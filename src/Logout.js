@@ -6,10 +6,10 @@ import { authcheck } from './Redux/Userlogin';
 export default function Logout() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-
+const API = process.env.REACT_APP_BACKEND_URL;
   const logouts = async () => {
     try {
-      await axios.post("http://localhost:4000/api/check/logout", {}, { withCredentials: true });
+      await axios.post(`${API}/api/check/logout`, {}, { withCredentials: true });
       await dispatch(authcheck());
       navigate("/home"); 
     } catch (err) {
