@@ -26,43 +26,32 @@ function Home() {
 }
   return (
     <>
-     <ul className="nav-bar">
-  {auth && (
-    <>
-      <div className="nav-left">
-        <li>
-          <Link to="/home">
-            <button><FaHome className="icon" /> Home</button>
-          </Link>
-        </li>
-        <li>
-          <Link to="/search">
-            <button><FaSearch className="icon" /> Search</button>
-          </Link>
-        </li>
-        <li>
-          <Link to="/new-post">
-            <button>
-              <FaPlusSquare className="icon" /> NewPost
-            </button>
-          </Link>
-        </li>
-        <li>
-          <Link to="/logout">
-            <button><FaSignInAlt className="icon" /> Logout</button>
-          </Link>
-        </li>
-      </div>
-
-      <div className="nav-right">
-        <li>
-          <Link to="/message">
-            <button><FaCommentDots className="icon" />Message</button>
-          </Link>
-        </li>
-      </div>
-    </>
-  )}
+<ul className="nav-bar">
+  <li>
+    <Link to="/home">
+      <button><FaHome className="icon" />Home</button>
+    </Link>
+  </li>
+  <li>
+    <Link to="/search">
+      <button><FaSearch className="icon" />Search</button>
+    </Link>
+  </li>
+  <li>
+    <Link to="/new-post">
+      <button><FaPlusSquare className="icon" />Post</button>
+    </Link>
+  </li>
+  <li>
+    <Link to="/message">
+      <button><FaCommentDots className="icon" />Message</button>
+    </Link>
+  </li>
+  <li>
+    <Link to="/logout">
+      <button><FaSignInAlt className="icon" />Logout</button>
+    </Link>
+  </li>
 </ul>
    
       <div className="main-container">
