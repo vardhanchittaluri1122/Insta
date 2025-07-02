@@ -2,12 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #f0f4f4;
+  background-color:white;
 }
 
 body {
   font-family: sans-serif;
-  background-color: #fafafa;
+  
 }
 
 .nav-bar {
@@ -17,9 +17,7 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #fff;
-  border-top: 1px solid #ccc;
-  padding: 0.4rem 0;
+  padding:   0;
   z-index: 1000;
   list-style: none;
 }
@@ -30,6 +28,7 @@ body {
 }
 
 .nav-bar button {
+  margin-left: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -294,7 +293,7 @@ button.primary:hover {
 
 .feed-container {
   padding: 40px 20px;
-  max-width: 1200px;
+  max-width: 50%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -304,7 +303,7 @@ button.primary:hover {
 .feed-title {
   font-size: 36px;
   font-weight: 700;
-  color: #ffffff;
+  color: #0e0404;
   text-align: left;
   margin-bottom: 20px;
   padding-left: 10px;
@@ -334,7 +333,8 @@ button.primary:hover {
 }
 
 .userid {
-  color: #f1f1f1;
+  color: #f5eeee;
+   background: none;
   font-size: 16px;
   font-weight: 600;
 }
