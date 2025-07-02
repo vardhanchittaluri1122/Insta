@@ -29,27 +29,27 @@ function Home() {
 <ul className="nav-bar">
   <li>
     <Link to="/home">
-      <button><FaHome className="icon" />Home</button>
+      <button><FaHome className="icon" /></button>
     </Link>
   </li>
   <li>
     <Link to="/search">
-      <button><FaSearch className="icon" />Search</button>
+      <button><FaSearch className="icon" /></button>
     </Link>
   </li>
   <li>
     <Link to="/new-post">
-      <button><FaPlusSquare className="icon" />Post</button>
+      <button><FaPlusSquare className="icon" /></button>
     </Link>
   </li>
   <li>
     <Link to="/message">
-      <button><FaCommentDots className="icon" />Message</button>
+      <button><FaCommentDots className="icon" /></button>
     </Link>
   </li>
   <li>
     <Link to="/logout">
-      <button><FaSignInAlt className="icon" />Logout</button>
+      <button><FaSignInAlt className="icon" /></button>
     </Link>
   </li>
 </ul>
